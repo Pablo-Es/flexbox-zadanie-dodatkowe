@@ -1,4 +1,4 @@
-# Prace domowe dla JFDZ6
+# Prace domowe dla JFDZ7
 
 ## Informacje ogólne
 1. Pracę rozpoczynamy od [Zadania 0](https://github.com/infoshareacademy/jfdz7-prace-domowe/blob/master/Zadanie-0.md)
