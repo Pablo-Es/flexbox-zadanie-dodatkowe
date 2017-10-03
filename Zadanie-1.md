@@ -15,7 +15,7 @@ W Twoim repozytorium pojawi się plik index.html przygotowany do wypełnienia tr
 
 # Pomocne linki:
 
-semantyczny html5
+- semantyczny html5
 https://tutorials.comandeer.pl/html5-blog.html
-znaczniki html5
+- znaczniki html5
 https://jakubjurkian.pl/html5-nowe-znaczniki/
