@@ -14,7 +14,3 @@
 -----
 
 
-## [Zadanie 0](https://github.com/infoshareacademy/jfdz7-prace-domowe/blob/master/Zadanie-0.md)
-_Termin_: 30.09.2017  
-_Opis_: Rozpoczęcie pracy, przygotowanie repozytorium i środowiska
-
