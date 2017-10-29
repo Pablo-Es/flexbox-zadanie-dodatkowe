@@ -5,12 +5,12 @@
 1. Zmodyfikuj kod HTML i CSS z poprzedniego zadania, aby Twoja strona była responsywna
 1.(dla chętnych) Stwórz swój własny grid system na 12 kolumn
 1. Skorzystaj z breakpointów:
-telefony:
+  * telefony:
   * xs < 576px
   * sm > 576px
-  tablety:
+  * tablety:
   * md > 768px
-  deskopy:
+  * deskopy:
   * lg > 992px
   * xl > 1200px
 1. Obrazki również powinny być responsywne
