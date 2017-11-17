@@ -1,4 +1,4 @@
-# Dodadtkowa praca domowa 
+# Dodatkowa praca domowa - Flexbox
 
 
 
