@@ -6,16 +6,38 @@
 body, h1, h2, p, address, a, button {
   @extend %nice-fonts;
 }
-
+figure {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
 body {
   font-family: Raleway, sans-serif;
-  background: url(images/background1.png) no-repeat top center #f9f8fb;
+  background: url(../images/background1.png) no-repeat top center #f9f8fb;
+}
+.text--center {
+  text-align: center;
+}
+.section-heading {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+}
+.heading-2 {
+  font-weight: 900;
 }
 
+.section-text {
+  margin: 30px 0;
+  font-size: 17px;
+  line-height: 27px;
+}
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding:0 15px;
 }
 
 .site-header {
@@ -79,7 +101,7 @@ body {
   position: relative;
 
   &::after {
-    content: url(images/scroll.png);
+    content: url(../images/scroll.png);
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -96,17 +118,7 @@ body {
     max-width: 380px;
   }
 
-  .section-fresh-title {
-    font-size: 60px;
-    font-weight: 900;
-    margin: 0;
-  }
 
-  .section-fresh-text {
-    margin: 30px 0;
-    font-size: 17px;
-    line-height: 27px;
-  }
 
   .section-fresh-action {
     text-transform: uppercase;
@@ -123,6 +135,35 @@ body {
     color: white;
     box-shadow: 0 20px 30px transparentize($primary-color, 0.7);
   }
+}
+.section-about {
+  padding: 70px 0;
+  background: #00b2b2;
+  color: $light-color;
+  &__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    @media (min-width: 768px) {
+      flex-flow: wrap;
+    }
+  }
+  &__figure {
+    @media (min-width: 768px) {
+      flex: 0 0 50%;
+    }
+
+  }
+  &__article {
+    @media (min-width: 768px) {
+      flex: 0 0 41.666667%;
+    }
+  }
+  &__heading {
+    font-size: $headings-font-size;
+  }
+
 }
 
 .site-footer {
@@ -160,4 +201,5 @@ body {
     }
   }
 }
+
 
